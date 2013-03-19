@@ -1,5 +1,6 @@
 require 'rspec'
 require_relative 'greed'
+
 describe Greed, '#score' do
 
   it 'should return 100 when a single 1 is rolled' do
